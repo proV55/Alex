@@ -1,0 +1,18 @@
+extends layout
+
+block content 
+  div
+    include ./partials/First.jade
+  header.header
+      include ./partials/header.jade
+  div.invisible#About
+  //div
+    include ./partials/portofolio.jade
+  //div.separation
+  div.About
+      include ./partials/About.jade
+  div.separation#Contact
+  div.Contact
+      include ./partials/Contact.jade
+  div
+      include ./partials/footer.jade
