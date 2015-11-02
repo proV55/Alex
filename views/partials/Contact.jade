@@ -1,22 +1,22 @@
-div.container
+div
     h1.centerTitle Contact
     br
-    p
-        |Pour me contacter voici un Formulaire
+    p Pour me contacter voici un Formulaire
     br
-    form(action="/contact", name="contactus", id="contactus", method="post")
-        fieldset
-            p
-                label(for='name') Nom:
-                br
-                input(name='name', type='text', value='', id='name')
-            p
-                label(for='email') Email:
-                br
-                input(name='email', type='email', value='', id='email')
-            p
-                label(for='message') Message:
-                br
-                textarea(name='message', cols='40em', rows='10em', id='message')
-            p
-                input(name='submit', type='submit', value='Send', id='submit')
+    p
+        form(action="/contact", name="contactus", id="contactus", method="post")
+            fieldset
+                p
+                    label(for='name') Nom:
+                    br
+                    input(name='name', type='text', value='', id='name')
+                p
+                    label(for='email') Email:
+                    br
+                    input(name='email', type='email', value='', id='email')
+                p
+                    label(for='message') Message:
+                    br
+                    textarea(name='message', cols='40e', rows='10e', id='message')
+                p
+                    input(name='submit', type='submit', value='Send', id='submit')
