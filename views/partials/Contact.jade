@@ -6,17 +6,17 @@ div
     p
         form(action="/contact", name="contactus", id="contactus", method="post")
             fieldset
-                p
-                    label(for='name') Nom:
-                    br
-                    input(name='name', type='text', value='', id='name')
-                p
-                    label(for='email') Email:
-                    br
-                    input(name='email', type='email', value='', id='email')
-                p
-                    label(for='message') Message:
-                    br
-                    textarea(name='message', cols='40e', rows='10e', id='message')
-                p
-                    input(name='submit', type='submit', value='Send', id='submit')
+                label(for='name') 
+                    P Nom:
+                input(name='name', type='text', value='', id='name')
+                br
+                label(for='email')
+                    p Email:
+                input(name='email', type='email', value='', id='email')
+                br
+                label(for='message') 
+                    p Message:
+                br
+                textarea(name='message', cols='40e', rows='10e', id='message')
+                br
+                input(name='submit', type='submit', value='Send', id='submit')
